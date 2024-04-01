@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #333;
+}
+nav {
+    text-align: center;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #92140C;
+    color: #ffff;
+  }
+  .first{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .one img{
+    margin: 15px;
+    max-width: 500px;
+    border-radius: 18% 82% 57% 43% / 87% 74% 26% 13% ;
+    box-shadow: 0px 0px 80px #BE5A38;
+  }
+  .two{
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  .icons ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+  }
+  .icons ul li{
+    margin-left: 30px;
+    font-size: x-large;
+  }
+  .icons ul li i{
+    color: #ffff;
+  }
+  #about{
+    text-align: center;
+    padding-top: 60px;
+    height: 400px;
+    background-color: #BE5A38;
+    border-radius: 18% 82% 35% 65% / 39% 45% 55% 61%;
+    margin-top: 100px;
+  }
+  #between h2{
+    text-align: center;
+  }
+  #between h2 span{
+    font-size: 14px;
+    color: #92140C;
+  }
+#projects{
+    display: flex;
+    margin-top: 100px;
+}
+  .container {
+    position : relative;
+    width: 100%;
+    max-width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 30px;  
+  }
+  
+  .container .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    /* margin : 30px 10px; */
+    padding : 20px 15px;
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+    cursor: pointer;
+  }
+  .container .card:hover {
+    height : 420px;    
+  }
+  .container .card .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  .container .card .image img {
+    width : 100%;
+    border-radius : 15px;
+    max-height: 250px;
+  }
+
+  .container .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .container .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  /* ///graph */
+  .four{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .skk{
+    width: 500px;
+    color: #000;
+  }
+  .skk h3{
+    color: #fff;
+  }
+  .skk ul{
+    list-style: none;
+  }
+  .skk ul li{
+    background-color: #C1B4AE;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+ .skk2{
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding: 4px;
+    background-color: #C1B4AE;
+ }
+  /* ////graph */
+  #cont {
+    display: flex;
+    color: #353238;
+    justify-content: center;
+    align-items: center;
+    border-radius: 87% 13% 88% 12% / 60% 81% 19% 40% ;
+    height: 600px;
+    margin-top: 80px;
+    background-color: #BE5A38;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.foot{
+  padding-top: 50px;
+  width: 600px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-group input[type="submit"] {
+    padding: 10px 20px;
+   background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-image: linear-gradient(to bottom right, #C1B4AE, #ff7f00, #000000, #C1B4AE);
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.progress-bar {
+  width: 200px;
+  height: 14px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.progress {
+  height: 100%;
+  background-color: #BE5A38;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  animation: fillProgress 2s ease-in-out forwards;
+}
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #000;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+@keyframes fillProgress {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0; 
+  }
+}
+@keyframes resetProgress {
+  from {
+    left: 0; 
+  }
+  to {
+    left: -100%; 
+  }
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  
+  .container {
+      padding: 20px; 
+  }
+
+  .container .card {
+      max-width: 250px; 
+      height: 180px; 
+      padding: 15px;
+  }
+
+  .container .card .image {
+      width: 200px; 
+      height: 200px; 
+      top: -30%; 
+  }
+
+  .container .card .content {
+      top: -120px; 
+  }
+}
